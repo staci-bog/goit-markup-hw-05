@@ -36,7 +36,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  .ul, .li {
+  .ul, li {
     list-style: none;
    
   }
@@ -55,6 +55,7 @@
     min-height: 80px;
     top: 0;
     left: 0;
+    z-index: 1;
   }
   .header .list {
     list-style: none;
