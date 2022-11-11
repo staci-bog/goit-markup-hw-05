@@ -38,7 +38,7 @@
   }
   .ul, li {
     list-style: none;
-   
+  
   }
   /* main-div */
   .main-div {
@@ -625,13 +625,14 @@
   }
   /* list of projects */
   .portfolio-lists {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
   }
  
   .portfolio-element {
-    position: relative;
+    /*position: relative;*/
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -648,25 +649,35 @@
  }
   .portfolio-link {
     text-decoration: none;
+    position: relative;
   }
   
-  /*.portfolio-vision  img {
+ /*.portfolio-vision  img {
     position: relative;
-    overflow: ;
+    overflow: hidden;
   }*/
   .portfolio-description {
     position: absolute;
     top:0;
     right: 0;
-   /* background-color:rgba(33, 150, 243, 0.9);
-    color: white;
-    padding-top: 63px;
+    background-color:rgba(33, 150, 243, 0.9);
+    color: black;
+    /*padding-top: 63px;
     padding-left: 24px;
     padding-bottom: 63px;
     padding-right: 24px;*/
-    
   }
-  
+  .portfolio-project {
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color:rgba(33, 150, 243, 0.9);
+    color: black;
+    padding-top: 63px;
+    padding-left: 24px;
+    padding-bottom: 63px;
+    padding-right: 24px;
+  }
   .portfolio-title {
     padding-top: 20px;
     padding-left: 24px;
