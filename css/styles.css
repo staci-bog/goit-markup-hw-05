@@ -651,7 +651,9 @@
     text-decoration: none;
     /*position: relative;*/
   }
-  
+  .portfolio-link:hover .portfolio-project {
+    opacity: 1;
+  }
  .portfolio-vision  {
     position: relative;
     overflow: hidden;
@@ -673,6 +675,7 @@
     padding: 63px 24px 63px 24px;
     margin-top: 0;
     margin-bottom: 0;
+    opacity: 0;
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.54px;
