@@ -16,6 +16,7 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--color-text);
+    padding-top: 80px;
   }
   .container {
     width: 1200px;
@@ -51,6 +52,8 @@
     position: fixed;
     width: 100%;
     min-height: 80px;
+    top: 0;
+    left: 0;
   }
   .header .list {
     list-style: none;
