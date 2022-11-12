@@ -16,7 +16,7 @@
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--color-text);
-    padding-top: 80px;
+   /* padding-top: 80px;*/
   }
   .container {
     width: 1200px;
@@ -50,7 +50,7 @@
   .header {
     background-color: var(--primary-white-color);
     border: 1px solid #ECECEC;
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     min-height: 80px;
     top: 0;
@@ -113,7 +113,7 @@
     color: var(--accent-color);
     position: relative;
   }
-  .link.current:hover::after {
+  .link.current::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -311,7 +311,8 @@
     background-color:rgba(47, 48, 58, 0.8);
     color: var(--primary-white-color);
     position: absolute;
-    top: 217px;
+   /*top: 217px;*/
+    bottom: 0;
     width: 370px;
     padding-top: 27px;
     padding-left: 107px;
